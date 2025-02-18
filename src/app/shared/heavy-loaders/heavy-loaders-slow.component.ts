@@ -15,6 +15,8 @@ export class HeavyLoadersSlowComponent {
 
   @Input({ required: true }) cssClass!: string;
 
+
+
   constructor() {
 
     const start = Date.now();
@@ -22,4 +24,6 @@ export class HeavyLoadersSlowComponent {
 
     console.log('Cargado');
   }
+
+
 }
